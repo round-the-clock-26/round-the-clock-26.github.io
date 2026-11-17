@@ -457,13 +457,13 @@
 3443|실격
 3445|순위 미인정
 3476|</span></p>⏎      <div class="tph__top wrap">⏎        <a class="tph__back" href="#teams">모든 팀</a>⏎        <p class="tph__place"><span class="tchip tchip--
-3493|"><span>
+3493|"><span> 
 3497|에서도</span>
 3500|⏎  <section class="tps" aria-label="역사">⏎    <div class="wrap">⏎      <p class="tps__statement" data-tps style="--n:
 3512|⏎  <section class="tpm" data-tpm aria-labelledby="tpm-h">⏎    <div class="tpm__pin">⏎      <div class="tpm__head wrap">⏎        <h2 class="tp-h2" id="tpm-h">주요 연표</h2>⏎        <p class="tpm__span">
 3513|–
-3534|</span> <span class="credit">사진:
-3553|" data-tpd aria-label="차량
+3534|</span> <span class="credit">사진: 
+3553|" data-tpd aria-label="차량 
 3563|, 민간 팀
 3566|</p>⏎      <ul class="tpd__crew" aria-label="드라이버">
 3574|드라이버 챔피언십
@@ -472,17 +472,17 @@
 3578|</dd></div>⏎        <div><dt>우승</dt><dd>
 3579|</dd></div>⏎        <div><dt>최고 성적</dt><dd>
 3580|없음
-3581|</dd></div>⏎      </dl>⏎      <p class="credit">사진:
+3581|</dd></div>⏎      </dl>⏎      <p class="credit">사진: 
 3584|⏎  <section class="tpc" aria-labelledby="tpc-h">⏎    <header class="tpc__head wrap" data-in>⏎      <h2 class="tp-h2" id="tpc-h">차량</h2>⏎      <p>
 3588|⏎  <figure class="heat" data-in>⏎    <figcaption class="heat__cap">⏎      <h3 class="tp-h3">2026년, 라운드별 성적</h3>⏎      <p>각 차량의 클래스 내 순위.</p>⏎    </figcaption>⏎    <div class="heat__scroll" tabindex="0" role="region" aria-label="라운드별 결과">⏎      <table class="heat__tbl">⏎        <thead>⏎          <tr><th scope="col"><span class="visually-hidden">차량</span></th>
 3593|<th scope="col">포인트</th></tr>⏎        </thead>⏎        <tbody>
 3604|, 폴 포지션에서 출발
 3615|</tbody>⏎      </table>⏎    </div>⏎    <ul class="heat__key" aria-label="범례">⏎      <li><i class="heat__k heat__c--win"></i>우승</li>⏎      <li><i class="heat__k heat__c--pod"></i>포디움(3위 안)</li>⏎      <li><i class="heat__k heat__c--pts"></i>포인트(10위 안)</li>⏎      <li><i class="heat__k heat__c--np"></i>포인트 없음</li>⏎      <li><i class="heat__k heat__c--out"></i>완주 못 함</li>⏎      <li><i class="heat__k heat__k--pole"></i>폴 포지션(예선 1위)에서 출발</li>⏎    </ul>⏎  </figure>
-3616|⏎  <section class="tpr" aria-labelledby="tpr-h">⏎    <div class="wrap">⏎      <h2 class="tp-h2" id="tpr-h" data-in>기록과 성적</h2>⏎      <ul class="tpr__hon" data-counters>⏎
-3624|⏎  <section class="tpt" aria-labelledby="tpt-h">⏎    <div class="wrap"><h2 class="tp-h2" id="tpt-h" data-in>
-3625|의 특징</h2></div>⏎    <ul class="tpt__list">⏎
+3616|⏎  <section class="tpr" aria-labelledby="tpr-h">⏎    <div class="wrap">⏎      <h2 class="tp-h2" id="tpr-h" data-in>기록과 성적</h2>⏎      <ul class="tpr__hon" data-counters>⏎ 
+3624|⏎  <section class="tpt" aria-labelledby="tpt-h">⏎    <div class="wrap"><h2 class="tp-h2" id="tpt-h" data-in> 
+3625|의 특징</h2></div>⏎    <ul class="tpt__list">⏎ 
 3631|⏎  <nav class="tpn" aria-label="다른 팀">⏎    <a class="tpn__next" href="
-3634|">⏎      <span class="tpn__label wrap">다음 팀,
+3634|">⏎      <span class="tpn__label wrap">다음 팀, 
 3644|"><span>이전 팀</span><b>
 3645|</b></a>⏎      <a class="tpn__all" href="#teams"><span>돌아가기</span><b>모든 팀</b></a>⏎    </div>⏎  </nav>
 3646|⏎  <footer class="tpf">⏎    <div class="wrap">⏎      <h2 class="tpf__h">참고 자료</h2>⏎      <ul class="tpf__list">

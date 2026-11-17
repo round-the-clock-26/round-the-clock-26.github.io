@@ -25,7 +25,11 @@
     <style>.finish__post{max-width:540px;margin:0 auto 56px}.finish__post .instagram-media{margin:0 auto 12px!important}.finish__post figcaption{text-align:center}</style>
     <link rel="stylesheet" crossorigin href="./assets/style-BecZOHVH.css">
     <!-- Sofia Sans has no Hangul: fall back to the system Korean font and keep words whole -->
-    <style>:root{--font-t:"Sofia Sans","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;--font-d:"Sofia Sans Extra Condensed","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif}body{word-break:keep-all}</style>
+    <style>:root{--font-t:"Sofia Sans","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;--font-d:"Sofia Sans Extra Condensed","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif}body{word-break:keep-all}
+    /* Hangul is taller than the condensed Latin capitals these display sizes were tuned for: open up the line height so wrapped lines and the clipped word boxes of animated headings do not cut or overlap the glyphs */
+    .h2,.tp-h2{line-height:1.1}.h3,.tp-h3,.log__title,.mk__headline,.win__place,.setp__w b,.rd__name,.pit__step b,.pit__fig,.tps__statement,.tpt__h,.finish__end{line-height:1.15}
+    /* below 1000px the big outlined car number rises about 0.37em above its card; Korean lines run wider, so keep the cars intro clear of it */
+    @media (max-width:1000px){.tpc__head{margin-bottom:max(28px,6vw)}}</style>
   </head>
   <body>
     <div class="heavens" aria-hidden="true">
@@ -604,11 +608,11 @@
         </div>
         <div class="foot__lists">
           <details class="foot__det">
-            <summary>사진 출처, <span data-photo-count>32</span>장</summary>
+            <summary><span>사진 출처, <span data-photo-count>32</span>장</span></summary>
             <ul class="foot__credits" data-photo-credits></ul>
           </details>
           <details class="foot__det">
-            <summary>드라이버 사진, 위키미디어 공용 <span data-face-count>0</span>장</summary>
+            <summary><span>드라이버 사진, 위키미디어 공용 <span data-face-count>0</span>장</span></summary>
             <ul class="foot__credits" data-face-credits></ul>
           </details>
           <details class="foot__det" open>

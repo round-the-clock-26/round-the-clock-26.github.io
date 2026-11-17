@@ -263,25 +263,25 @@
 2645|LMGT3 팀 트로피 최고 순위 차량 
 2646|
 2673|<p class="credit">#
-2675|, 테스트 데이에 낮에 촬영. 사진:
-2679| <span class="credit">사진:
+2675|, 테스트 데이에 낮에 촬영. 사진: 
+2679| <span class="credit">사진: 
 2685|⏎        <i class="log__trail" aria-hidden="true"></i>⏎      </div>⏎      <div class="ground log__ground">⏎        <div class="wrap log__body">⏎          <p class="log__tag"><span>르망 레이스 로그</span><b>
-2695| <span class="credit">사진:
-2701| <span class="credit">사진:
-2704|⏎    <ul class="key" aria-label="시리즈"><li><i style="--c: var(--c-six)"></i>6시간 레이스</li><li><i style="--c: var(--c-lm)"></i>르망</li></ul>⏎    <div class="points__rows" role="table" aria-label="순위별 포인트">⏎
+2695| <span class="credit">사진: 
+2701| <span class="credit">사진: 
+2704|⏎    <ul class="key" aria-label="시리즈"><li><i style="--c: var(--c-six)"></i>6시간 레이스</li><li><i style="--c: var(--c-lm)"></i>르망</li></ul>⏎    <div class="points__rows" role="table" aria-label="순위별 포인트">⏎ 
 2713|⏎    </div>⏎    <figcaption>순위별 포인트. 모든 레이스에서 폴 포지션은 1점을 더 받는다.</figcaption>
 2731|</a>, 팀 순위 
 2732|위</span><span class="credit">사진
-2740|">⏎      <span class="win__rd">라운드
+2740|">⏎      <span class="win__rd">라운드 
 2749|⏎    <thead><tr><th scope="col">순위</th><th scope="col">번호</th><th scope="col">팀</th><th scope="col">차량</th><th scope="col" class="tbl__wide">크루</th><th scope="col">우승</th><th scope="col" class="tbl__n">포인트</th></tr></thead>⏎    <tbody>
 2766|<span class="dim">없음</span>
 2791|</p>⏎        <p class="credit">#
 2793|. 사진: 
 2804|⏎    <p class="log__tag"><span>르망 레이스 로그</span><b>16:00, 24시간째</b></p>⏎    <div class="log__main"><h3 class="log__title">
-2806|</p>⏎    <p class="credit">우승 차량 #7 Toyota TR010 Hybrid, 테스트 데이 촬영. 사진:
+2806|</p>⏎    <p class="credit">우승 차량 #7 Toyota TR010 Hybrid, 테스트 데이 촬영. 사진: 
 2809|⏎    <thead><tr><th scope="col">순위</th><th scope="col">번호</th><th scope="col">팀</th><th scope="col" class="tbl__wide">크루</th><th scope="col" class="tbl__n">랩</th><th scope="col" class="tbl__n">기록 또는 차이</th></tr></thead>⏎    <tbody>
 2817|<small>르망 단독 출전</small>
-2832|랩</p>⏎      <p class="credit">사진:
+2832|랩</p>⏎      <p class="credit">사진: 
 2873|피트
 2875|던롭
 2877|테르트르 루즈
@@ -314,7 +314,7 @@
 2965|뒤 차축 공통 규격 하이브리드
 2966|하이브리드 없음
 2979|결과 없음
-2990|</span>⏎    <span class="crew__res" role="img" aria-label="순위:
+2990|</span>⏎    <span class="crew__res" role="img" aria-label="순위: 
 2995|점</span>⏎  </button>
 2999|">⏎    <div class="mk__sky">⏎      <p class="mk__rank">제조사 챔피언십 <b>
 3000|</b>, 
@@ -329,7 +329,7 @@
 3021|⏎    <button class="show__arrow" type="button" data-dir="-1" aria-label="이전 제조사"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>⏎    <ol class="show__dots">
 3027|</ol>⏎    <button class="show__arrow" type="button" data-dir="1" aria-label="다음 제조사"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
 3066|</div>⏎    <div class="rd__main">⏎      <p class="rd__meta">열리지 않음</p>⏎      <h3 class="rd__name"><s>
-3068|, 계획은
+3068|, 계획은 
 3069|10
 3070|8
 3071|시간</p>⏎      <p class="rd__story">
@@ -338,41 +338,42 @@
 3079|랩 길이
 3085|하이퍼카 폴 포지션
 3092|관중
-3101|</p></div>⏎    <div class="rd__main">⏎      <p class="rd__meta">라운드
+3101|</p></div>⏎    <div class="rd__main">⏎      <p class="rd__meta">라운드 
 3102|/8
 3103|, 포인트 2배
-3110|94회째 대회, 13.626km 코스에 62대 출전.
+3110|94회째 대회, 13.626km 코스에 62대 출전. 
 3114|<p class="rd__here">화면 모서리의 시계가 바로 이 레이스의 시계다. 이 페이지의 섹션 사이사이에 있는 레이스 로그가 이 레이스를 한 시간씩 따라간다.</p>
-3121|</dl>⏎      <div class="rd__hours" role="img" aria-label="시즌
+3121|</dl>⏎      <div class="rd__hours" role="img" aria-label="시즌 
 3122|–
-3123|시간 (총
-3124|시간)"><i></i><span>시즌
+3123|시간 (총 
+3124|시간)"><i></i><span>시즌 
 3125|–
-3126|시간 (총
+3126|시간 (총 
 3127|시간)</span></div>⏎    </div>⏎    <div class="rd__win">⏎      <div class="rd__car"><div data-car="
 3128|"></div></div>⏎      <div class="rd__winner">⏎        <p class="rd__label">하이퍼카 우승</p>⏎        <p class="rd__team">
-3132|</p>⏎        <p class="rd__gap">
+3132|</p>⏎        <p class="rd__gap"> 
 3133| 차로 #
 3135|보다 앞섰고, 3위는 #
 3137|.</p>⏎      </div>⏎      <div class="rd__winner">⏎        <p class="rd__label">LMGT3 우승</p>⏎        <p class="rd__team">
-3141|, 드라이버
+3141|, 드라이버 
 3143|</p>⏎      </div>⏎      <p class="credit">#
-3145|, 르망 테스트 데이. 사진:
+3145|, 르망 테스트 데이. 사진: 
 3150|하이퍼카 드라이버
 3151|모든 라운드를 함께 달린 크루는 한 줄로 묶었고, 빠진 라운드가 있는 드라이버는 따로 표시했다.
 3153|제조사
 3154|Toyota는 한 라운드를 남기고 바르셀로나에서 타이틀을 확정했다.
 3156|LMGT3 드라이버
 3157|#33 Corvette 드라이버 중 모든 라운드에 출전한 사람은 Jonny Edgar뿐이었다.
-3160|⏎    <div class="board__top">⏎      <div class="tabs" role="tablist" aria-label="챔피언십">⏎
-3168|⏎        <i class="tabs__ink" aria-hidden="true"></i>⏎      </div>⏎      <button class="btn btn--sm board__play" type="button" data-play><span>시즌 다시 보기</span></button>⏎    </div>⏎    <div class="steps" role="group" aria-label="라운드별 순위">⏎      <span class="steps__lab">라운드</span>⏎
-3202| 순위, 라운드
+3160|⏎    <div class="board__top">⏎      <div class="tabs" role="tablist" aria-label="챔피언십">⏎ 
+3168|⏎        <i class="tabs__ink" aria-hidden="true"></i>⏎      </div>⏎      <button class="btn btn--sm board__play" type="button" data-play><span>시즌 다시 보기</span></button>⏎    </div>⏎    <div class="steps" role="group" aria-label="라운드별 순위">⏎      <span class="steps__lab">라운드</span>⏎ 
+3202| 순위, 라운드 
 3208|시즌 다시 보기
 3211|정지
-3259| <span class="credit">사진:
-3262|⏎    <div class="ng__shade" aria-hidden="true"></div>⏎    <div class="ng__hud">⏎      <p class="ng__clock" aria-hidden="true"><span data-clock-hh>02</span><i>:</i><span data-clock-mm>00</span></p>⏎      <p class="ng__day">6월 14일 일요일, 어둠 속</p>⏎    </div>⏎    <div class="ng__log">⏎      <p class="log__tag"><span>르망 레이스 로그</span><b>02:00,
-3297|배경:
-3298|, 르망
+3259| <span class="credit">사진: 
+3262|⏎    <div class="ng__shade" aria-hidden="true"></div>⏎    <div class="ng__hud">⏎      <p class="ng__clock" aria-hidden="true"><span data-clock-hh>02</span><i>:</i><span data-clock-mm>00</span></p>⏎      <p class="ng__day">6월 14일 일요일, 어둠 속</p>⏎    </div>⏎    <div class="ng__log">⏎      <p class="log__tag"><span>르망 레이스 로그</span><b>02:00, 
+3297|배경: 
+3298|, 르망 
+3299|. 사진: <span class="nw">
 3301|</span>, 하늘 제거.
 3320|급유
 3322|잭
@@ -386,7 +387,7 @@
 3332|에어 잭(압축 공기로 차를 들어 올리는 장치)이 약 1초 만에 차를 들어 올린다. 최대 네 명이 휠건(바퀴 너트를 푸는 공구) 두 개로 작업하고, 바퀴마다 너트는 하나다. 르망에서 #83 Ferrari 크루는 네 바퀴를 8.870초에 갈아 피트 스톱 챌린지에서 가장 빠른 하이퍼카 크루가 됐다.
 3333|출발.
 3334|차가 내려오고 차 앞을 막던 신호판(롤리팝)이 올라가면, 드라이버가 혼자 힘으로 엔진을 다시 건다.
-3335|급유, 그다음 타이어
+3335|급유 후 타이어
 3336|급유가 먼저다. 차는 바퀴를 땅에 딛고 엔진을 끈 채 접지되어 있어야 한다. 연료 라인은 급유 담당만 만질 수 있고, 두 명이 안전 밸브와 소화기 옆에 대기한다. 호스가 빠지기 전에는 어떤 공구도 쓸 수 없다.
 3337|4명, 휠건 2개
 3338|급유가 끝나면 최대 네 명이 차를 작업할 수 있고, 타이어는 휠건 두 개 이하로 교체해야 한다. 타이어·브레이크 엔지니어는 볼 수만 있고 만질 수 없다. 드라이버 교대는 스톱 중 언제든 가능하다.
@@ -395,17 +396,17 @@
 3341|시속 60km
 3342|모든 라운드의 피트 레인 제한 속도. 레이스 중 시속 60~70km로 달리다 걸리면 처음 두 번은 드라이브스루 페널티(피트 레인 통과 벌칙)를 받는다.
 3352|" decoding="async" loading="lazy" /></figure>⏎    <div class="pit__shade" aria-hidden="true"></div>⏎    <header class="pit__head">⏎      <p class="when"><b>04:30</b> 일요일</p>⏎      <h2 class="h2">1분이 안 되는 정지</h2>⏎    </header>⏎    <div class="pit__watch" aria-hidden="true">⏎      <p class="pit__time"><span data-pit-time>00.0</span><small>초</small></p>⏎      <p class="pit__phase" data-pit-phase>박스, 박스</p>⏎    </div>⏎    <ol class="pit__steps">
-3360|</ol>⏎    <div class="pit__floor" aria-hidden="true"></div>⏎    <div class="pit__car"><div data-car="h83" data-parallax="0.4"></div></div>⏎    <figure class="pit__bar">⏎      <div class="pit__track" role="img" aria-label="약 51초의 풀 스톱: 급유 40초, 차를 들어 올리는 데 1초, 타이어 네 개에 9초, 내려놓고 출발하는 데 1.5초">⏎
-3367|⏎        <i class="pit__head-mark" data-pit-mark></i>⏎      </div>⏎      <figcaption class="credit">실제 기록이 아닌 설명용 그림이다. 실제 스톱 시간은 넣어야 하는 연료량과 성능 조정(BoP)에 따라 달라진다.⏎        배경: 2014년 밤의 피트 레인, 장노출. 사진:
+3360|</ol>⏎    <div class="pit__floor" aria-hidden="true"></div>⏎    <div class="pit__car"><div data-car="h83" data-parallax="0.4"></div></div>⏎    <figure class="pit__bar">⏎      <div class="pit__track" role="img" aria-label="약 51초의 풀 스톱: 급유 40초, 차를 들어 올리는 데 1초, 타이어 네 개에 9초, 내려놓고 출발하는 데 1.5초">⏎ 
+3367|⏎        <i class="pit__head-mark" data-pit-mark></i>⏎      </div>⏎      <figcaption class="credit">실제 기록이 아닌 설명용 그림이다. 실제 스톱 시간은 넣어야 하는 연료량과 성능 조정(BoP)에 따라 달라진다.⏎        배경: 2014년 밤의 피트 레인, 장노출. 사진: 
 3368|. 배경 앞의 차는 테스트 데이의 #83 Ferrari 499P. 사진: 
 3387|박스, 박스
 3388|아웃
-3724|">
+3724|"> 
 3727|<span>팀 페이지</span>
-3766|"><span>
-3767| 페이지 열기</span></a>
+3766|"><span> 
+3767| 페이지 열기</span></a>⏎      </div>⏎      <div class="tsp__car"><div data-car="
 3779|⏎    <div class="tix__bar">⏎      <div class="tix__tabs" role="tablist" aria-label="클래스">⏎        <button class="tix__tab" role="tab" type="button" id="tix-t-hyper" aria-controls="tix-hyper" aria-selected="true">Hypercar <small>
 3780|개 제조사</small></button>⏎        <button class="tix__tab" role="tab" type="button" id="tix-t-gt" aria-controls="tix-gt" aria-selected="false" tabindex="-1">LMGT3 <small>
-3781|개 팀</small></button>⏎      </div>⏎      <p class="tix__hint">챔피언십 순서. 각 팀 페이지에서 차량, 크루, 라운드별 시즌, 역사를 볼 수 있다.</p>⏎    </div>⏎
+3781|개 팀</small></button>⏎      </div>⏎      <p class="tix__hint">챔피언십 순서. 각 팀 페이지에서 차량, 크루, 라운드별 시즌, 역사를 볼 수 있다.</p>⏎    </div>⏎ 
 3783|하이퍼카 팀
 3786|LMGT3 팀

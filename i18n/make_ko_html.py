@@ -13,7 +13,11 @@ R = [
 ('<link rel="stylesheet" crossorigin href="./assets/style-BecZOHVH.css">',
  '<link rel="stylesheet" crossorigin href="./assets/style-BecZOHVH.css">\n'
  '    <!-- Sofia Sans has no Hangul: fall back to the system Korean font and keep words whole -->\n'
- '    <style>:root{--font-t:"Sofia Sans","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;--font-d:"Sofia Sans Extra Condensed","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif}body{word-break:keep-all}</style>'),
+ '    <style>:root{--font-t:"Sofia Sans","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;--font-d:"Sofia Sans Extra Condensed","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif}body{word-break:keep-all}\n'
+ '    /* Hangul is taller than the condensed Latin capitals these display sizes were tuned for: open up the line height so wrapped lines and the clipped word boxes of animated headings do not cut or overlap the glyphs */\n'
+ '    .h2,.tp-h2{line-height:1.1}.h3,.tp-h3,.log__title,.mk__headline,.win__place,.setp__w b,.rd__name,.pit__step b,.pit__fig,.tps__statement,.tpt__h,.finish__end{line-height:1.15}\n'
+ '    /* below 1000px the big outlined car number rises about 0.37em above its card; Korean lines run wider, so keep the cars intro clear of it */\n'
+ '    @media (max-width:1000px){.tpc__head{margin-bottom:max(28px,6vw)}}</style>'),
 ('Le Mans, Saturday 13 June 2026. Three seconds to the start.', '2026년 6월 13일 토요일, 르망. 출발 3초 전.'),
 ('>Skip to content<', '>본문으로 건너뛰기<'),
 ('aria-label="Round the Clock 26, back to the top"', 'aria-label="Round the Clock 26, 맨 위로"'),
@@ -141,12 +145,12 @@ R = [
  '차량 사진은 모두 2026 시즌의 실제 사진으로, 르망 테스트 데이와 레이스, 이몰라, 스파에서 위키미디어 공용 기여자\n            T GOUREAU, GenericPerson32, Marcin Pultyn, MarcelX42가 촬영했습니다. 대부분의 차량은 배경을 지운 모습입니다.\n            페이지 시계가 밤으로 넘어가면 그 이미지를 어둡게 하고 헤드라이트 불빛을 더합니다. 전체 프레임으로 보이는 밤과 새벽 사진은\n            자르기와 크기 조정 외에는 손대지 않은 실제 사진입니다. 차 뒤의 서킷도 이전 레이스에서 찍은 실제 사진입니다.\n            2017년 David Merrett의 던롭 브리지, 2018년 OldLion의 대관람차이며, 하늘은 지웠습니다. 페이지는 시계에 맞춰\n            색을 입히고, 어두워진 뒤에는 사진 속에 이미 켜져 있던 조명만 빛납니다. 밤의 피트 레인은 2014년 Nic\n            Redhead의 사진입니다. 수정한 CC BY-SA 이미지는 같은 라이선스로 공유합니다.'),
 ('Circuit maps are traced from OpenStreetMap data, © OpenStreetMap contributors, ODbL, via the Open Racetrack DB. Type is Sofia Sans and\n            Sofia Sans Extra Condensed, from the Sofia Sans Project Authors at Lettersoup, under the SIL Open Font License. Built with JavaScript,\n            CSS, SVG and WebGL, with Lenis for scrolling.',
  '서킷 지도는 Open Racetrack DB를 거쳐 OpenStreetMap 데이터(© OpenStreetMap contributors, ODbL)를 따라 그렸습니다. 서체는\n            Lettersoup의 Sofia Sans Project Authors가 만든 Sofia Sans와 Sofia Sans Extra Condensed(SIL Open Font License)입니다.\n            JavaScript, CSS, SVG, WebGL로 만들었고 스크롤은 Lenis를 썼습니다.'),
-('<summary>Photo credits, <span data-photo-count>32</span> photographs</summary>', '<summary>사진 출처, <span data-photo-count>32</span>장</summary>'),
+('<summary><span>Photo credits, <span data-photo-count>32</span> photographs</span></summary>', '<summary><span>사진 출처, <span data-photo-count>32</span>장</span></summary>'),
 ('<summary>Sources</summary>', '<summary>참고 자료</summary>'),
 ('>See the podium post on Instagram<', '>인스타그램에서 시상식 게시물 보기<'),
 ('The #7 Toyota crew with their Le Mans trophies. Instagram post by Mike Conway.', '르망 트로피를 든 #7 Toyota 크루. Mike Conway의 인스타그램 게시물.'),
-('<summary>Driver portraits, <span data-face-count>0</span> photographs from Wikimedia Commons</summary>',
- '<summary>드라이버 사진, 위키미디어 공용 <span data-face-count>0</span>장</summary>'),
+('<summary><span>Driver portraits, <span data-face-count>0</span> photographs from Wikimedia Commons</span></summary>',
+ '<summary><span>드라이버 사진, 위키미디어 공용 <span data-face-count>0</span>장</span></summary>'),
 ('Driver portraits on the team pages are freely licensed photographs from Wikimedia Commons, found through Wikidata and credited\n            one by one below. Drivers with no free photograph are shown by name only.',
  '팀 페이지의 드라이버 사진은 위키데이터를 통해 찾은 위키미디어 공용의 자유 라이선스 사진이며, 아래에 한 장씩 출처를 밝혔습니다.\n            자유 라이선스 사진이 없는 드라이버는 이름만 표시합니다.'),
 ]

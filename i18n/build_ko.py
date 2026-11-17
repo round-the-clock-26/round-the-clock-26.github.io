@@ -17,19 +17,28 @@ for name in ('ko.txt', 'ko_teams.txt'):  # main page, team pages
         i, _, t = line.rstrip('\n').partition('|')  # trailing spaces in ko*.txt are meaningful
         assert int(i) not in ko, f'duplicate id {i}'
         ko[int(i)] = t.replace('⏎', '\n')
+# A segment that ends in a space usually runs into a value ("사진: " + name); flag Korean that lost it.
+# Korean units attach to numbers, so a leading space is not copied: "215" + "점" gives 215점.
+NO_TRAILING_SPACE = {3122, 3125, 3513}  # "0–6시간", "1985–2026": the dash joins two numbers
+lost = [i for i, t in ko.items() if seg[i][2].endswith(' ') and t and not t.endswith(' ') and i not in NO_TRAILING_SPACE]
+if lost: print('warning: these translations lost their trailing space:', lost)
 # English ordinals (1st, 22nd, ...) become 1위, 22위
 for i, (_, _, en) in enumerate(seg):
     if i not in ko and re.fullmatch(r'\d+(st|nd|rd|th)', en):
         ko[i] = en.rstrip('stndrh') + '위'
 
+def markup(t):
+    # tags must survive translation; only text and human-readable attributes may change
+    t = re.sub(r'(aria-label|alt|title)="[^"]*"', r'\1=""', t)
+    rest = re.sub(r'<[^<>]*>', '', t)
+    return [re.sub(r'\s+', ' ', x) for x in re.findall(r'<[^<>]*>', t)], [rest.count(c) for c in '"<>=']
+
 out = s
 for i in sorted(ko, reverse=True):  # back to front so offsets stay valid
     a, b, en = seg[i]
     assert '`' not in ko[i] and '${' not in ko[i], i
-    t = ko[i]
-    if en[:1] == ' ' and t[:1] != ' ' and t: t = ' ' + t
-    if en[-1:] == ' ' and t[-1:] != ' ' and t: t += ' '
-    out = out[:a] + t + out[b:]
+    assert markup(ko[i]) == markup(en), f'segment {i}: translation changed the HTML markup'
+    out = out[:a] + ko[i] + out[b:]
 
 # Korean ordinals: 1위, 2위 ... (the English helper appends st/nd/rd/th)
 old = 'function xt(e){let t=[`th`,`st`,`nd`,`rd`],n=e%100;return e+(t[(n-20)%10]||t[n]||t[0])}'
