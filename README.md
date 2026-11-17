@@ -28,7 +28,7 @@ Built by DamianoX7 as a portfolio piece for freelance work: interactive brand an
 - **The season as data.** Eight round cards with circuit traces from OpenStreetMap, a standings board you can replay round by round, a step-by-step pit stop scene, records and the champions.
 - **17 team pages** with their own colours: history, milestones, each car with its crew, a round-by-round results table and what defines the car.
 - **Two languages.** The whole site, team pages included, is also in Korean (see below).
-- **Driver portraits** for 69 drivers, all freely licensed photographs found through Wikidata.
+- **Driver portraits** for 72 drivers, all freely licensed photographs found through Wikidata.
 - **Accessible by default.** `prefers-reduced-motion` turns the scroll effects off and shows end states, headings and charts have text alternatives, and there is a skip link and keyboard support for the tabs.
 
 | | |

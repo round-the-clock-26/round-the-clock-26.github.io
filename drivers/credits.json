@@ -619,5 +619,32 @@
   "author": "Mitchea99",
   "license": "CC0",
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "Ben Keating": {
+  "src": "./drivers/ben-keating.jpg",
+  "wikidata": "Q20195100",
+  "file": "BenKeating.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BenKeating.jpg",
+  "author": "FrankAbalistreri",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "François Hériau": {
+  "src": "./drivers/franois-hriau.jpg",
+  "wikidata": "Q107241983",
+  "file": "François Hériau.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_H%C3%A9riau.jpg",
+  "author": "United Autosports",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "Pipo Derani": {
+  "src": "./drivers/pipo-derani.jpg",
+  "wikidata": "Q1878433",
+  "file": "Pipo Derani @ 24H Le Mans 2019 (cropped).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pipo_Derani_@_24H_Le_Mans_2019_(cropped).jpg",
+  "author": "LoupDragon42",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
  }
 }

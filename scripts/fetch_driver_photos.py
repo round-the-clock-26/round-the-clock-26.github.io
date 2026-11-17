@@ -49,7 +49,7 @@ def wikidata_image(name):
 
 def commons_info(filename):
     pages = get('https://commons.wikimedia.org/w/api.php', action='query', titles='File:' + filename,
-                prop='imageinfo', iiprop='url|extmetadata', iiurlwidth=320)['query']['pages']
+                prop='imageinfo', iiprop='url|extmetadata', iiurlwidth=330)['query']['pages']  # 330: a standard thumbnail step, odd sizes get rate-limited
     ii = next(iter(pages.values()))['imageinfo'][0]
     meta = ii['extmetadata']
     strip = lambda v: re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', v))).strip()
@@ -78,7 +78,8 @@ if __name__ == '__main__':
             # Commons only hosts free files, but refuse anything not clearly CC/public domain anyway
             if not re.match(r'(CC|Public domain|PD)', info['license'], re.I): missing.append(name + ' (licence: ' + info['license'] + ')'); continue
             path = f'drivers/{slug(name)}.jpg'
-            open(f'{root}/{path}', 'wb').write(fetch(info['thumb']))
+            data = fetch(info['thumb'])  # fetch first, so a failed download leaves no empty file
+            open(f'{root}/{path}', 'wb').write(data)
             out[name] = {'src': './' + path, 'wikidata': qid, 'file': filename, **{k: info[k] for k in ('page', 'author', 'license', 'licenseUrl')}}
             print('ok  ', name, '|', info['license'], '|', info['author'][:40])
         except Exception as e:
