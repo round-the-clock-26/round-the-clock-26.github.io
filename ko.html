@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="ko" data-sky="day">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Round the Clock 26</title>
+    <meta
+      name="description"
+      content="르망 24시를 따라 둘러보는 2026 FIA 세계 내구 선수권 비공식 투어. 실제 사진에 스크롤하는 시각에 맞춰 빛을 입혔습니다."
+    />
+    <meta name="theme-color" content="#4a96e6" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="./cars/h8.webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="./data/h8.webp" />
+    <script>
+      (function () {
+        var c = document.documentElement.classList;
+        c.add('js');
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) c.add('reduced');
+        if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) c.add('fine');
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/app-ko.js"></script>
+    <script type="module" src="./assets/drivers.js"></script>
+    <style>.finish__post{max-width:540px;margin:0 auto 56px}.finish__post .instagram-media{margin:0 auto 12px!important}.finish__post figcaption{text-align:center}</style>
+    <link rel="stylesheet" crossorigin href="./assets/style-BecZOHVH.css">
+    <!-- Sofia Sans has no Hangul: fall back to the system Korean font and keep words whole -->
+    <style>:root{--font-t:"Sofia Sans","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;--font-d:"Sofia Sans Extra Condensed","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif}body{word-break:keep-all}</style>
+  </head>
+  <body>
+    <div class="heavens" aria-hidden="true">
+      <i class="heavens__stars" data-stars></i>
+      <i class="heavens__stars heavens__stars--b" data-stars></i>
+      <i class="heavens__sun"></i>
+      <i class="heavens__moon"></i>
+      <i class="heavens__haze"></i>
+    </div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <div class="boot" data-boot aria-hidden="true">
+      <div class="boot__in">
+        <p class="boot__clock"><span>15</span><i>:</i><span>59</span><i>:</i><span data-boot-s>57</span></p>
+        <p class="boot__txt">2026년 6월 13일 토요일, 르망. 출발 3초 전.</p>
+        <i class="boot__bar"></i>
+      </div>
+    </div>
+
+    <a class="skip" href="#main">본문으로 건너뛰기</a>
+
+    <header class="nav" data-nav>
+      <a class="nav__brand" href="#top" aria-label="Round the Clock 26, 맨 위로">
+        <span class="nav__dial" aria-hidden="true"><i></i><i></i></span>
+        <span class="nav__name">Round the Clock <b>26</b></span>
+      </a>
+      <nav class="nav__links" id="nav-links" aria-label="섹션">
+        <a href="#basics">기본 규칙</a>
+        <a href="#grid">그리드</a>
+        <a href="#gt3">LMGT3</a>
+        <a href="#teams">팀</a>
+        <a href="#season">시즌</a>
+        <a href="#standings">순위</a>
+        <a href="#pits">피트 스톱</a>
+        <a href="#champions">챔피언</a>
+        <a href="#finish">피니시</a>
+        <a href="./index.html" lang="en" hreflang="en" onclick="this.href='./index.html'+location.hash">English</a>
+      </nav>
+      <div class="clk" title="페이지 시계: 2026년 6월 13–14일 르망 24시">
+        <span class="clk__orb" aria-hidden="true"></span>
+        <span class="clk__time"><span data-clock-hh>16</span><i>:</i><span data-clock-mm>00</span></span>
+        <span class="clk__meta"><span data-clock-day>토요일</span><span>24시간 중 <span data-clock-hour>1</span>시간째</span></span>
+        <span class="clk__strip" aria-hidden="true"><i></i></span>
+      </div>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+        <span class="visually-hidden">메뉴</span><i></i><i></i>
+      </button>
+    </header>
+
+    <main id="main">
+      <!-- 16:00 -->
+      <section class="hero" id="top" data-hour="0">
+        <div class="hero__sky" data-bd="wheel">
+          <h1 class="hero__title" aria-label="Round the Clock 26">
+            <span class="hero__line" aria-hidden="true"><span data-chars>Round</span> <span data-chars>the</span> <span data-chars>Clock</span></span>
+            <span class="hero__disc" aria-hidden="true">26</span>
+          </h1>
+          <div class="hero__car">
+            <div data-car="h8" data-parallax="1"></div>
+          </div>
+          <p class="hero__credit credit">
+            챔피언 차량 #8 Toyota TR010 Hybrid. 사진: <span class="nw">T GOUREAU</span>, <span class="nw">CC BY-SA 4.0</span>. 배경을 지우고
+            이 페이지의 시계에 맞춰 빛을 입혔습니다.
+          </p>
+        </div>
+        <div class="ground hero__ground">
+          <div class="wrap hero__cols">
+            <p class="hero__lede">
+              4개 대륙에서 열린 8번의 레이스, 66시간의 레이스, 한 트랙을 나눠 쓰는 두 클래스. 이몰라의 첫 시간부터 몬차의 마지막 시간까지,
+              2026 FIA 세계 내구 선수권(WEC)을 둘러보는 비공식 투어입니다.
+            </p>
+            <p class="hero__how">
+              이 페이지는 레이스 시간을 따릅니다. 시계는 6월 르망의 그 시계입니다. 맨 위는 토요일 오후 4시, 스크롤하면 밤을 지나
+              맨 아래는 일요일 오후 4시. 하늘과 차에 비치는 빛이 시계를 따라 바뀝니다.
+            </p>
+            <a class="btn hero__go" href="#start"><span>시계 시작</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="log" id="start" data-log="0" data-car-slug="h12" data-hour="0.3"></section>
+
+      <!-- 17:00 -->
+      <section class="scene basics" id="basics" data-hour="1">
+        <div class="sky" data-bd="dunlop">
+          <div class="wrap sky__head">
+            <p class="when"><b>17:00</b> 토요일</p>
+            <h2 class="h2" data-split>시계와의 레이스</h2>
+            <p class="lede">
+              그랑프리는 두 시간 안에 끝납니다. WEC 레이스는 랩이 아니라 시간으로 잽니다. 대부분 6시간, 르망은 24시간.
+              시간이 다 됐을 때 가장 멀리 달린 차가 이기고, 혼자서 해낼 수 있는 사람은 없습니다.
+            </p>
+          </div>
+          <div class="pair" data-in>
+            <figure class="pair__car pair__car--a">
+              <div data-car="h51"></div>
+              <figcaption><b>Hypercar</b> #51 Ferrari 499P. <span class="credit">사진: <span class="nw">T GOUREAU</span>, <span class="nw">CC BY-SA 4.0</span></span></figcaption>
+            </figure>
+            <figure class="pair__car pair__car--b">
+              <div data-car="gt33"></div>
+              <figcaption><b>LMGT3</b> #33 Corvette Z06 GT3.R. <span class="credit">사진: <span class="nw">T GOUREAU</span>, <span class="nw">CC BY-SA 4.0</span></span></figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="ground">
+          <div class="wrap">
+            <div class="chap" data-in>
+              <div class="chap__text">
+                <h3 class="h3">드라이버 셋, 차 한 대</h3>
+                <p>
+                  모든 차는 두세 명의 드라이버가 번갈아 운전합니다. FIA는 드라이버마다 플래티넘, 골드, 실버, 브론즈 등급을 매기고,
+                  이 등급이 누가 어디서 달릴 수 있는지를 정합니다.
+                </p>
+                <p>
+                  하이퍼카는 프로 드라이버의 클래스라 가장 낮은 브론즈 등급은 탈 수 없습니다. LMGT3는 규정상 프로 드라이버와 아마추어 드라이버가 한 차를 나눠 타는 클래스입니다. 모든 크루에 브론즈 드라이버 한 명과
+                  브론즈 또는 실버 드라이버 한 명이 더 있어야 하고, 6시간 레이스에서는 두 사람 모두 최소 1시간 45분을 달려야 합니다.
+                </p>
+              </div>
+              <div class="chap__fig crews">
+                <div class="seats">
+                  <p class="seats__cls"><span class="num num--hyper">H</span> Hypercar</p>
+                  <ol>
+                    <li><span>드라이버 1</span><span class="grades"><i class="g g--p">플래티넘</i><i class="g g--g">골드</i><i class="g g--s">실버</i></span></li>
+                    <li><span>드라이버 2</span><span class="grades"><i class="g g--p">플래티넘</i><i class="g g--g">골드</i><i class="g g--s">실버</i></span></li>
+                    <li><span>드라이버 3 (선택)</span><span class="grades"><i class="g g--p">플래티넘</i><i class="g g--g">골드</i><i class="g g--s">실버</i></span></li>
+                  </ol>
+                </div>
+                <div class="seats">
+                  <p class="seats__cls"><span class="num num--gt">GT</span> LMGT3</p>
+                  <ol>
+                    <li><span>드라이버 1</span><span class="grades"><i class="g g--b">브론즈</i></span></li>
+                    <li><span>드라이버 2</span><span class="grades"><i class="g g--b">브론즈</i><i class="g g--s">실버</i></span></li>
+                    <li><span>드라이버 3 (선택)</span><span class="grades"><i class="g g--any">모든 등급</i></span></li>
+                  </ol>
+                </div>
+                <figure class="stint">
+                  <div class="stint__bar" role="img" aria-label="6시간: 브론즈 드라이버 1시간 45분, 두 번째 브론즈 또는 실버 드라이버 1시간 45분, 나머지는 자유">
+                    <span class="stint__seg stint__seg--b" style="--f: 1.75"><b>1:45</b> 브론즈</span>
+                    <span class="stint__seg stint__seg--s" style="--f: 1.75"><b>1:45</b> 브론즈 또는 실버</span>
+                    <span class="stint__seg stint__seg--o" style="--f: 2.5">나머지는 자유</span>
+                  </div>
+                  <div class="stint__axis" aria-hidden="true"><span>0 h</span><span>3 h</span><span>6 h</span></div>
+                  <figcaption>6시간 LMGT3 레이스에서 브론즈·실버 드라이버의 최소 주행 시간.</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="chap chap--flip" data-in>
+              <div class="chap__text">
+                <h3 class="h3">클래스 둘, 트랙 하나</h3>
+                <p>
+                  하이퍼카와 LMGT3 차량은 동시에 달리지만, 클래스마다 결과와 챔피언이 따로 있습니다. 르망에서는 초청 클래스인 LMP2(한 단계 아래의 저렴한 프로토타입 경주차)까지
+                  합류해, 6월에는 한 바퀴 13.626km인 르망의 사르트 서킷에 62대가 섰습니다.
+                </p>
+                <p>
+                  우승한 Toyota는 381랩을, 우승한 Corvette는 336랩을 달렸습니다. 그 45랩 차이 하나하나가 하이퍼카가 뒤에서 따라붙어
+                  추월할 틈을 찾아야 했던 순간입니다.
+                </p>
+              </div>
+              <figure class="chap__fig shot" data-scene="imolaTraffic"></figure>
+            </div>
+
+            <figure class="traffic" data-traffic data-in>
+              <div class="traffic__map"><svg></svg></div>
+              <div class="traffic__side">
+                <dl class="traffic__read">
+                  <div><dt>레이스 시간</dt><dd class="tnum" data-t-time>01:30</dd></div>
+                  <div><dt>하이퍼카 선두</dt><dd><span class="tnum" data-t-hyper>24</span> <small data-t-hyper-unit>랩</small></dd></div>
+                  <div><dt>LMGT3 선두</dt><dd><span class="tnum" data-t-gt>21</span> <small data-t-gt-unit>랩</small></dd></div>
+                </dl>
+                <div class="traffic__ctl">
+                  <button class="btn btn--sm" type="button" data-t-play><span>일시정지</span></button>
+                  <button class="btn btn--sm btn--ghost" type="button" data-t-speed aria-pressed="false"><span>빠르게</span></button>
+                </div>
+                <ul class="key" aria-label="클래스">
+                  <li><i style="--c: var(--hyper)"></i>하이퍼카 18대</li>
+                  <li><i style="--c: var(--lmp2)"></i>LMP2 19대, 르망 한정</li>
+                  <li><i style="--c: var(--gt)"></i>LMGT3 25대</li>
+                </ul>
+                <figcaption>
+                  다시보기가 아닌 시뮬레이션입니다. 점 하나하나가 클래스 우승자의 평균 레이스 속도에 약간의 차이를 두고 2026년 르망 서킷을 돕니다.
+                  피트에서 시계 방향으로 던롭, 테르트르 루즈, 뮬산 스트레이트, 뮬산, 인디애나폴리스, 아르나주, 포르쉐 커브,
+                  포드 시케인.
+                </figcaption>
+              </div>
+            </figure>
+
+            <div class="chap" data-in>
+              <div class="chap__text">
+                <h3 class="h3">레이스가 길수록 포인트도 많다</h3>
+                <p>
+                  포인트는 레이스 길이에 비례합니다. 6시간 레이스 우승은 25점, 르망 우승은 50점이고, 르망 10위는 6시간 레이스 10위의
+                  두 배입니다. 예선 1위(폴 포지션)는 1점을 더 받습니다.
+                </p>
+                <p>
+                  그래서 2026년에는 르망 하나가 한 해 동안 딸 수 있는 포인트의 5분의 1이 넘었습니다. 6시간 레이스 일곱 번과
+                  24시간 레이스 한 번, 모두 합쳐 66시간의 레이스였습니다.
+                </p>
+              </div>
+              <figure class="chap__fig points" data-points></figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 19:00 -->
+      <section class="scene grid" id="grid" data-hour="3">
+        <div class="sky" data-bd="wheel">
+          <div class="wrap sky__head">
+            <p class="when"><b>19:00</b> 토요일</p>
+            <h2 class="h2" data-split>제조사 여덟, 규정 둘</h2>
+            <p class="lede">
+              하이퍼카에는 두 종류의 차가 출전합니다. 주최 측이 성능 조정(BoP)으로 차마다 출력과 무게를 조절해 어느 쪽이든 이길 수 있게 하고, 2026년부터 그 수치는
+              공개되지 않고 팀에만 전달됩니다.
+            </p>
+          </div>
+          <div class="pair pair--rules" data-in>
+            <figure class="pair__car pair__car--a">
+              <div data-car="h93"></div>
+              <figcaption><b>LMH</b> #93 Peugeot 9X8. <span class="credit">사진: <span class="nw">T GOUREAU</span>, <span class="nw">CC BY-SA 4.0</span></span></figcaption>
+            </figure>
+            <figure class="pair__car pair__car--b">
+              <div data-car="h20"></div>
+              <figcaption><b>LMDh</b> #20 BMW M Hybrid V8. <span class="credit">사진: <span class="nw">T GOUREAU</span>, <span class="nw">CC BY-SA 4.0</span></span></figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="ground">
+          <div class="wrap">
+            <div class="rules" data-in>
+              <article class="rule">
+                <h3 class="h3">LMH</h3>
+                <p>
+                  제조사가 처음부터 직접 설계합니다. 선택 사항인 전기 모터가 앞바퀴를 굴려, 하이브리드 LMH는 정해진 속도 이상에서 사륜구동이 됩니다.
+                  2026년 Toyota와 Ferrari는 약 시속 190km였습니다.
+                </p>
+                <p class="rule__who">Toyota, Ferrari, Peugeot, 그리고 하이브리드가 없는 Aston Martin.</p>
+              </article>
+              <article class="rule">
+                <h3 class="h3">LMDh</h3>
+                <p>
+                  승인된 네 곳의 컨스트럭터 중 한 곳의 섀시에, 뒤 차축에 공용 50kW 하이브리드 시스템을 얹습니다. 엔진과
+                  차체는 제조사가 직접 만듭니다.
+                </p>
+                <p class="rule__who">BMW와 Cadillac은 Dallara 섀시, Alpine과 Genesis는 Oreca 섀시.</p>
+              </article>
+              <article class="rule rule--both">
+                <h3 class="h3">공통 사항</h3>
+                <dl>
+                  <div><dt>합산 출력</dt><dd>500 kW</dd></div>
+                  <div><dt>최소 중량</dt><dd>1,030 kg</dd></div>
+                  <div><dt>타이어</dt><dd>Michelin</dd></div>
+                </dl>
+                <p class="rule__who">성능 조정(BoP) 적용 전 기본 수치.</p>
+              </article>
+            </div>
+            <div class="grid__intro" data-in>
+              <h3 class="h3">챔피언십 순서로 본 그리드</h3>
+              <p>8개 제조사의 하이퍼카 17대가 시즌 전체를 달렸습니다. 번호를 골라 그 차와 한 해를 보거나, 팀 페이지를 열어 보세요.</p>
+              <p class="grid__teams" data-team-links></p>
+            </div>
+          </div>
+        </div>
+        <div class="show" data-show data-pinhost>
+          <i data-hour="3.5" data-pin="0"></i>
+          <i data-hour="4.35" data-pin="1"></i>
+          <div class="show__stick">
+            <div class="show__track" data-show-track></div>
+            <div class="show__nav" data-show-nav></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="log" data-log="1" data-car-slug="h38" data-hour="4.5"></section>
+
+      <!-- 20:50 -->
+      <section class="scene gt3" id="gt3" data-hour="4.85">
+        <div class="sky" data-bd="dunlop">
+          <div class="wrap sky__head">
+            <p class="when"><b>20:50</b> 토요일</p>
+            <h2 class="h2" data-split>또 하나의 레이스</h2>
+            <p class="lede">
+              일반 도로용 스포츠카를 경주용으로 개조한 차들의 클래스입니다(GT3 규정). 9개 브랜드의 차 18대가 출전하는데, 제조사가 아니라 차를 사서
+              운영하는 민간 팀이 달리고, 타이어는 모두 미국 타이어 회사 굿이어(Goodyear) 제품 하나로 통일돼 있습니다. 하이퍼카보다 훨씬 느려서,
+              르망 예선에서 가장 빠른 LMGT3 차의 한 바퀴 기록은 3분 52초 433으로 가장 빠른 하이퍼카보다 약 30초 늦었습니다. 이 클래스의 트로피는
+              실버 등급(플래티넘·골드·실버·브론즈 중 셋째)의 22세 드라이버에게 돌아갔습니다.
+            </p>
+          </div>
+          <div class="lineup" data-gt3-lineup data-in></div>
+        </div>
+        <div class="ground">
+          <div class="wrap">
+            <div class="winners" data-in>
+              <h3 class="h3">여덟 레이스, 일곱 우승자</h3>
+              <ol class="winners__list" data-gt3-winners></ol>
+            </div>
+            <div class="sheet" data-in>
+              <h3 class="h3">LMGT3 팀 순위</h3>
+              <div class="sheet__scroll"><table class="tbl" data-gt3-table></table></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 21:05 -->
+      <section class="scene teams" id="teams" data-hour="5.08">
+        <div class="sky" data-bd="wheel">
+          <div class="wrap sky__head">
+            <p class="when"><b>21:05</b> 토요일</p>
+            <h2 class="h2" data-split>열일곱 팀</h2>
+            <p class="lede">
+              하이퍼카에 8개 제조사, LMGT3에 9개 팀. 1990년대부터 이어진 팀도 있고, 올해 WEC에 데뷔한 팀도 둘 있습니다. 팀마다
+              차량, 크루, 시즌, 역사를 담은 페이지가 있습니다.
+            </p>
+          </div>
+        </div>
+        <div class="ground">
+          <div class="wrap">
+            <div class="tix" data-teams-index></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 21:15 to 22:40 -->
+      <section class="setp setp--sunset" id="sunset" data-hour="5.25" data-pinhost data-setp="sunset">
+        <i data-hour="5.3" data-pin="0"></i>
+        <i data-hour="5.9" data-pin="0.5"></i>
+        <i data-hour="6.5" data-pin="0.82"></i>
+        <i data-hour="6.7" data-pin="1"></i>
+        <div class="setp__stage">
+          <p class="setp__clock" aria-hidden="true"><span data-clock-hh>21</span><i>:</i><span data-clock-mm>15</span></p>
+          <div class="setp__words">
+            <p class="setp__w" data-w="0"><b>골든 아워.</b><span>5시간 반이 지나자 빛이 따뜻해지고 그림자가 길어집니다.</span></p>
+            <p class="setp__w" data-w="1"><b>그리고 해가 집니다.</b><span>6월 한가운데인데도 밤 10시 무렵.</span></p>
+            <p class="setp__w" data-w="2"><b>라이트 온.</b><span>앞으로 여덟 시간은 헤드라이트로 달립니다.</span></p>
+          </div>
+          <div class="setp__car"><div data-car="h12" data-parallax="0.6"></div></div>
+          <div class="setp__ground"></div>
+          <p class="setp__credit credit">#12 Cadillac V-Series.R, 테스트 데이에 낮에 촬영. 사진: <span class="nw">T GOUREAU</span>, <span class="nw">CC BY-SA 4.0</span>. 어둠과 램프 불빛은 이 페이지가 입힌 것입니다.</p>
+        </div>
+      </section>
+
+      <section class="log log--photo" data-log="2" data-scene="dusk12" data-hour="7"></section>
+
+      <!-- 23:20 -->
+      <section class="scene season" id="season" data-hour="7.35">
+        <div class="sky" data-bd="wheel">
+          <div class="wrap sky__head">
+            <p class="when"><b>23:20</b> 토요일</p>
+            <h2 class="h2" data-split>66시간</h2>
+            <p class="lede">
+              시즌은 카타르에서 시작해 바레인에서 끝날 예정이었습니다. 중동 분쟁으로 카타르는 3월에 연기됐고,
+              7월에는 두 라운드 모두 취소됐습니다. 대신 이몰라가 개막전이 됐고, 바르셀로나와 몬차가 빈자리를 채웠습니다.
+            </p>
+          </div>
+        </div>
+        <div class="ground">
+          <div class="wrap rounds" data-rounds></div>
+        </div>
+      </section>
+
+      <!-- 02:00 -->
+      <section class="ng" id="night" data-hour="10" data-pinhost data-ng>
+        <i data-hour="10.1" data-pin="0"></i>
+        <i data-hour="10.22" data-pin="0.14"></i>
+        <i data-hour="10.85" data-pin="0.5"></i>
+        <i data-hour="10.96" data-pin="0.84"></i>
+        <i data-hour="11.05" data-pin="1"></i>
+        <div class="ng__stage" data-ng-stage></div>
+      </section>
+
+      <!-- 03:30 -->
+      <section class="scene standings" id="standings" data-hour="11.5">
+        <div class="sky" data-bd="dunlop">
+          <div class="wrap sky__head">
+            <p class="when"><b>03:30</b> 일요일</p>
+            <h2 class="h2" data-split>타이틀의 향방</h2>
+            <p class="lede">라운드별 누적 포인트. 몬차까지 타이틀 경쟁을 이어간 건 Toyota 두 크루뿐이었고, 다른 팀은 바르셀로나에서 이미 탈락했습니다.</p>
+          </div>
+        </div>
+        <div class="ground">
+          <div class="wrap board" data-board data-in></div>
+        </div>
+      </section>
+
+      <!-- 04:30 -->
+      <section class="pit" id="pits" data-hour="12.25">
+        <div class="pit__pin" data-pinhost data-pit>
+          <i data-hour="12.3" data-pin="0"></i>
+          <i data-hour="12.85" data-pin="1"></i>
+          <div class="pit__stage" data-pit-stage></div>
+        </div>
+        <div class="ground pit__ground">
+          <div class="wrap">
+            <div class="pit__intro" data-in>
+              <h3 class="h3">피트 스톱 규칙</h3>
+              <p>두 클래스 공통, 2026 경기 규정(스포팅 레귤레이션) 기준.</p>
+            </div>
+            <ul class="pit__facts" data-pit-facts></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 05:10 to 06:50 -->
+      <section class="setp setp--sunrise" id="sunrise" data-hour="13.15" data-pinhost data-setp="sunrise">
+        <i data-hour="13.2" data-pin="0"></i>
+        <i data-hour="14" data-pin="0.42"></i>
+        <i data-hour="14.65" data-pin="0.8"></i>
+        <i data-hour="14.85" data-pin="1"></i>
+        <div class="setp__stage">
+          <p class="setp__clock" aria-hidden="true"><span data-clock-hh>05</span><i>:</i><span data-clock-mm>10</span></p>
+          <div class="setp__words">
+            <p class="setp__w" data-w="0"><b>아직 어둡습니다.</b><span>13시간이 지났습니다. 차들은 밤 10시부터 헤드라이트로 달리고 있습니다.</span></p>
+            <p class="setp__w" data-w="1"><b>첫 햇살.</b><span>6시 무렵 하늘이 검정에서 파랑, 분홍으로 바뀝니다.</span></p>
+            <p class="setp__w" data-w="2"><b>아침.</b><span>아직 아홉 시간 넘게 남았습니다.</span></p>
+          </div>
+          <div class="setp__car"><div data-car="h83" data-parallax="0.6"></div></div>
+          <div class="setp__ground"></div>
+          <figure class="setp__photo" data-scene-bg="dawn83"></figure>
+          <p class="setp__credit credit">#83 AF Corse Ferrari 499P, 테스트 데이에 낮에 촬영. 사진: <span class="nw">T GOUREAU</span>, <span class="nw">CC BY-SA 4.0</span>. 어둠과 램프 불빛은 이 페이지가 입힌 것입니다.</p>
+        </div>
+      </section>
+
+      <section class="log" data-log="4" data-car-slug="h8" data-hour="15.5"></section>
+
+      <!-- 09:00 -->
+      <section class="scene records" id="records" data-hour="17">
+        <div class="sky" data-bd="wheel">
+          <div class="wrap sky__head">
+            <p class="when"><b>09:00</b> 일요일</p>
+            <h2 class="h2" data-split>2026년이 기록집에 더한 것</h2>
+          </div>
+        </div>
+        <div class="ground">
+          <ol class="wrap recs" data-records></ol>
+        </div>
+      </section>
+
+      <section class="log" data-log="5" data-car-slug="h20" data-hour="17.9"></section>
+
+      <!-- 11:30 -->
+      <section class="scene farewells" id="farewells" data-hour="19.5">
+        <div class="sky" data-bd="dunlop">
+          <div class="wrap sky__head">
+            <p class="when"><b>11:30</b> 일요일</p>
+            <h2 class="h2" data-split>마지막 랩</h2>
+            <p class="lede">몬차는 한 제조사와 몇몇 드라이버에게 작별의 무대였습니다.</p>
+          </div>
+        </div>
+        <div class="ground">
+          <div class="wrap">
+            <ul class="byes" data-farewells></ul>
+            <p class="next" data-next data-in></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="log" data-log="6" data-car-slug="h7" data-hour="21.5"></section>
+
+      <!-- 14:30 -->
+      <section class="scene champions" id="champions" data-hour="22.5">
+        <div class="sky">
+          <div class="wrap sky__head">
+            <p class="when"><b>14:30</b> 일요일</p>
+            <h2 class="h2" data-split>챔피언</h2>
+          </div>
+          <div class="crown" data-in>
+            <p class="crown__num" aria-hidden="true">8</p>
+            <div class="crown__car"><div data-car="h8" data-parallax="0.6"></div></div>
+          </div>
+        </div>
+        <div class="ground">
+          <div class="wrap titles">
+            <article class="title title--main" data-in>
+              <p class="title__what">하이퍼카 세계 내구 드라이버 챔피언</p>
+              <h3 class="title__who"><span>Sébastien Buemi</span> <span>Brendon Hartley</span> <span>Ryō Hirakawa</span></h3>
+              <p>
+                115점, 이몰라·후지·바르셀로나 우승. Buemi와 Hartley는 이제 각각 월드 타이틀 5개로 WEC 역사상
+                가장 많고, Hirakawa는 3개입니다. #8 크루는 팀 동료인 #7보다 18점 앞섰습니다.
+              </p>
+              <p class="credit">르망 테스트 데이의 #8 Toyota. 사진: <span class="nw">T GOUREAU</span>, <span class="nw">CC BY-SA 4.0</span></p>
+            </article>
+            <article class="title" data-in>
+              <p class="title__what">하이퍼카 세계 내구 제조사 챔피언</p>
+              <h3 class="title__who">Toyota</h3>
+              <p>
+                215점, 르망을 포함한 4승, 한 라운드를 남기고 바르셀로나에서 타이틀 확정. 2012년 WEC 출범 이후 Toyota의 여덟 번째
+                제조사 타이틀입니다.
+              </p>
+            </article>
+            <article class="title" data-in>
+              <p class="title__what">FIA LMGT3 드라이버 내구 트로피</p>
+              <h3 class="title__who">Jonny Edgar</h3>
+              <p>
+                107점. 컴브리아 출신의 22세 드라이버로, #33 Corvette에서 모든 라운드를 달린 유일한 드라이버입니다. 몬차에서 드라이브스루 페널티(피트 레인 통과 벌칙)로
+                15위까지 밀렸다가 3위로 올라와 트로피를 확정했습니다.
+              </p>
+            </article>
+            <article class="title title--car" data-in>
+              <div class="title__car"><div data-car="gt33"></div></div>
+              <div>
+                <p class="title__what">FIA LMGT3 팀 내구 트로피</p>
+                <h3 class="title__who">TF Sport <span class="num num--gt">33</span></h3>
+                <p>2024년 클래스 출범 이후 Manthey가 아닌 팀의 첫 LMGT3 타이틀. 이몰라 2위와 르망 우승이 바탕이 됐습니다.</p>
+                <p class="credit">르망 테스트 데이의 #33 Corvette. 사진: <span class="nw">T GOUREAU</span>, <span class="nw">CC BY-SA 4.0</span></p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 16:00 -->
+      <section class="finish" id="finish" data-hour="23.4">
+        <div class="finish__sky">
+          <i data-hour="24" class="finish__mark"></i>
+          <div class="flag" aria-hidden="true"><i></i></div>
+          <p class="finish__time"><span>16</span><i>:</i><span>00</span><i>:</i><span>00</span></p>
+          <h2 class="finish__h">체커기</h2>
+          <div class="finish__car"><div data-car="h7" data-parallax="0.6"></div></div>
+        </div>
+        <div class="ground">
+          <div class="wrap">
+            <div class="finish__log" data-finish-log data-in></div>
+            <!-- the rights holder's own post, shown through Instagram's embed (the photo itself is not copied here) -->
+            <figure class="finish__post" data-in>
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZmXxMmjSpz/" data-instgrm-version="14">
+                <a href="https://www.instagram.com/p/DZmXxMmjSpz/" rel="noopener" target="_blank">인스타그램에서 시상식 게시물 보기</a>
+              </blockquote>
+              <figcaption class="credit">르망 트로피를 든 #7 Toyota 크루. Mike Conway의 인스타그램 게시물.</figcaption>
+            </figure>
+            <script async src="https://www.instagram.com/embed.js"></script>
+            <div class="sheet" data-in>
+              <h3 class="h3">르망 종합 톱 10</h3>
+              <div class="sheet__scroll"><table class="tbl tbl--lm" data-lm-top10></table></div>
+            </div>
+            <div class="classwin" data-in>
+              <h3 class="h3">다른 클래스 우승</h3>
+              <ul class="classwin__list" data-lm-class></ul>
+            </div>
+            <p class="finish__end" data-in>페이지에서는 24시간, 트랙에서는 66시간.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot ground" id="credits">
+      <div class="wrap foot__grid">
+        <div class="foot__about">
+          <p class="foot__name">Round the Clock <b>26</b></p>
+          <p>
+            프런트엔드 포트폴리오로 만든 비공식 팬 프로젝트입니다. FIA, ACO, FIA 세계 내구 선수권 및 어떤 팀과도
+            관련이 없습니다. 팀과 차량 이름은 각 소유자의 것입니다.
+          </p>
+          <p>
+            결과와 순위는 2026년 11월 8일 몬차 6시간 이후 발표된 최종 기록입니다. 포인트는 FIA 순위에서,
+            레이스 정보는 아래 이벤트 페이지와 레이스 리포트에서 가져왔습니다. 트래픽 지도는 실제 평균 속도를 바탕으로 한 시뮬레이션입니다.
+          </p>
+          <p>
+            차량 사진은 모두 2026 시즌의 실제 사진으로, 르망 테스트 데이와 레이스, 이몰라, 스파에서 위키미디어 공용 기여자
+            T GOUREAU, GenericPerson32, Marcin Pultyn, MarcelX42가 촬영했습니다. 대부분의 차량은 배경을 지운 모습입니다.
+            페이지 시계가 밤으로 넘어가면 그 이미지를 어둡게 하고 헤드라이트 불빛을 더합니다. 전체 프레임으로 보이는 밤과 새벽 사진은
+            자르기와 크기 조정 외에는 손대지 않은 실제 사진입니다. 차 뒤의 서킷도 이전 레이스에서 찍은 실제 사진입니다.
+            2017년 David Merrett의 던롭 브리지, 2018년 OldLion의 대관람차이며, 하늘은 지웠습니다. 페이지는 시계에 맞춰
+            색을 입히고, 어두워진 뒤에는 사진 속에 이미 켜져 있던 조명만 빛납니다. 밤의 피트 레인은 2014년 Nic
+            Redhead의 사진입니다. 수정한 CC BY-SA 이미지는 같은 라이선스로 공유합니다.
+          </p>
+          <p>
+            팀 페이지의 드라이버 사진은 위키데이터를 통해 찾은 위키미디어 공용의 자유 라이선스 사진이며, 아래에 한 장씩 출처를 밝혔습니다.
+            자유 라이선스 사진이 없는 드라이버는 이름만 표시합니다.
+          </p>
+          <p>
+            서킷 지도는 Open Racetrack DB를 거쳐 OpenStreetMap 데이터(© OpenStreetMap contributors, ODbL)를 따라 그렸습니다. 서체는
+            Lettersoup의 Sofia Sans Project Authors가 만든 Sofia Sans와 Sofia Sans Extra Condensed(SIL Open Font License)입니다.
+            JavaScript, CSS, SVG, WebGL로 만들었고 스크롤은 Lenis를 썼습니다.
+          </p>
+        </div>
+        <div class="foot__lists">
+          <details class="foot__det">
+            <summary>사진 출처, <span data-photo-count>32</span>장</summary>
+            <ul class="foot__credits" data-photo-credits></ul>
+          </details>
+          <details class="foot__det">
+            <summary>드라이버 사진, 위키미디어 공용 <span data-face-count>0</span>장</summary>
+            <ul class="foot__credits" data-face-credits></ul>
+          </details>
+          <details class="foot__det" open>
+            <summary>참고 자료</summary>
+            <ul class="foot__sources" data-sources></ul>
+          </details>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
