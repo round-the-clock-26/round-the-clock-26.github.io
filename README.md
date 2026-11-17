@@ -8,6 +8,18 @@ An unofficial tour of the 2026 FIA World Endurance Championship, told over the 2
 
 Built as a front-end portfolio piece. Not affiliated with the FIA, the ACO, the FIA World Endurance Championship or any team.
 
+## 외주 작업 / Work with me
+
+DamianoX7이 외주 포트폴리오로 만든 비공식 팬 사이트입니다. 이 사이트에서 보여 드린 것처럼 이런 작업을 맡겨 주실 수 있습니다.
+
+- 스크롤에 따라 장면이 바뀌는 브랜드·제품 소개 사이트
+- 캠페인·행사용 랜딩 페이지
+- 차트, 순위표, 지도로 데이터를 보여 주는 페이지
+- 한국어·영어 두 언어 사이트
+- 모바일 대응과 접근성(모션 줄이기, 화면 낭독기) 기본 포함
+
+Built by DamianoX7 as a portfolio piece for freelance work: interactive brand and product sites, campaign landing pages, data-driven pages and bilingual Korean/English sites, mobile-ready and accessible by default.
+
 ## Highlights
 
 - **A page that keeps time.** Scroll position is mapped to the race clock. Sky colours, sun and moon positions and the amount of starlight are keyframed by race hour and interpolated on every frame, then written to CSS custom properties.
